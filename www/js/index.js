@@ -6,9 +6,9 @@ var app = {
     bindEvents: function ()
     {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        document.addEventListener('offline', this.onOffline, false);
-        document.addEventListener('online', this.onOnline, false);
-        document.addEventListener('load', this.onLoad, false);
+//        document.addEventListener('offline', this.onOffline, false);
+//        document.addEventListener('online', this.onOnline, false);
+//        document.addEventListener('load', this.onLoad, false);
     },
     ElShow: function (id) { document.getElementById(id).setAttribute('style', 'display:block;'); },
     ElHide: function (id) { document.getElementById(id).setAttribute('style', 'display:none;'); },

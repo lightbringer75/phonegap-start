@@ -79,7 +79,7 @@ h1 {
     display:none;
 }
 .DeviceReady {display:none;}
-.DeviceOnline {display:none;}
+.no-DeviceOnline {display:none;}
 @keyframes fade {
     from { opacity: 1.0; }
     50% { opacity: 0.4; }
